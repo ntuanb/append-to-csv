@@ -8,7 +8,7 @@ const EOL         = require('os').EOL;
  * 
  * @returns {bool}
  */
-let add_line_to_end_of_csv_file = function(file, data) {
+const add_line_to_end_of_csv_file = function(file, data) {
   try {
     fs.readFileSync(file);
   } catch (e) {

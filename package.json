@@ -7,6 +7,6 @@
     "json2csv": "^5.0.1"
   },
   "scripts": {
-    "run": "node index"
+    "start": "node index"
   }
 }
